@@ -1,0 +1,120 @@
+.info{
+    border: solid 1px;
+    border-radius: 10px;
+    width: 40%;
+    height: 10vh;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    font-size: 1.2vw;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/*form-------------------------------------------------------------------------------------------------------------------*/
+.apply{
+    border: solid 1px;
+    border-radius: 10px;
+    width: 40%;
+    height: 65vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inline-radio{
+    width: 100%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inline-radio input{
+    display: none;
+}
+
+.inline-radio label{
+    display: block;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 10px;
+    background: #bdc3c7;
+    color: #869198;
+    font-size: 1vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    transition: .2s;
+}
+
+.inline-radio label:first-of-type{
+    border-radius: 3px;
+}
+    
+.inline-radio label:last-of-type{
+    border-radius: 3px;
+}
+
+.inline-radio input[type="radio"]:checked + .income {
+    background-color: #bce0fd;
+    color: #fff;
+}
+
+.inline-radio input[type="radio"]:checked + .payment {
+    background-color: #ffbebd;
+    color: #fff;
+}
+    
+    
+.apply_item{
+    width: 50%;
+    margin: 10% auto;
+}
+
+.apply_item input{
+	font: 1vw sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+}
+
+.button {
+    width: 10%;
+    margin-top: 20%;
+    margin-left: 80%;
+}
+
+.button button[type="submit"] {
+    font: 1vw sans-serif;
+    font-weight: bold;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	letter-spacing: 1px;
+    color: black;
+    background-color: white;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+    transition:0.5s;
+}
+
+.button button[type="submit"]:hover {
+    color: white;
+    background-color: black;
+}

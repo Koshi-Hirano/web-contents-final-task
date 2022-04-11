@@ -1,0 +1,53 @@
+/*form-------------------------------------------------------------------------------------------------------------------*/
+.apply{
+    border: solid 1px;
+    border-radius: 10px;
+    width: 35%;
+    height: 40vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.apply_item{
+    width: 50%;
+    margin: 10% auto;
+}
+
+.apply_item input{
+	font: 1vw sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+}
+
+.button {
+    width: 15%;
+    margin-top: 13%;
+    margin-left: 70%;
+}
+
+.button button[type="submit"] {
+    font: 1vw sans-serif;
+    font-weight: bold;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	letter-spacing: 1px;
+    color: black;
+    background-color: white;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+    transition:0.5s;
+}
+
+.button button[type="submit"]:hover {
+    color: white;
+    background-color: black;
+}

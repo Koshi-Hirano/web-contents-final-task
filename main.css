@@ -1,0 +1,271 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color : inherit;
+    transition:0.5s;
+}
+
+header a:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+/*header-------------------------------------------------------------------------------------------------------------------*/
+header{
+    background-color:gainsboro;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 5vh;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 1.5vw;
+    margin-left: 2%;
+    margin-right: 60%;
+}
+
+.buttons{
+    display: flex;
+    width: auto;
+}
+
+.sign{
+    text-decoration: none;
+    margin-right: 3.5vw;
+    font-size: 1.5vw;
+}
+
+.link {
+    font-size: 1.5vw;
+}
+/*container-------------------------------------------------------------------------------------------------------------------*/
+.container{
+    width: 100%;
+    display: flex;
+    font-family: sans-serif;
+}
+
+/*side-------------------------------------------------------------------------------------------------------------------*/
+.side{
+    width: 25vw;
+    height: 85vh;
+    position: sticky;
+    top: 5vh;
+}
+
+/*balance-------------------------------------------------------------------------------------------------------------------*/
+.balance{
+    border: solid 1px;
+    border-radius: 10px;
+    width: 80%;
+    height: 17vh;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.balance_title {
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+.content_box{
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.balance_content {
+    font-size: 1.6vw;
+}
+
+/*form-------------------------------------------------------------------------------------------------------------------*/
+.apply{
+    border: solid 1px;
+    border-radius: 10px;
+    width: 80%;
+    height: 50vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inline-radio{
+    width: 100%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inline-radio input{
+    display: none;
+}
+
+.inline-radio label{
+    display: block;
+    cursor: pointer;
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    background: #bdc3c7;
+    color: #869198;
+    font-size: 1vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    transition: .2s;
+}
+
+.inline-radio label:first-of-type{
+    border-radius: 3px;
+}
+    
+.inline-radio label:last-of-type{
+    border-radius: 3px;
+}
+
+.inline-radio input[type="radio"]:checked + .income {
+    background-color: #bce0fd;
+    color: #fff;
+}
+
+.inline-radio input[type="radio"]:checked + .payment {
+    background-color: #ffbebd;
+    color: #fff;
+}
+    
+    
+.apply_item{
+    width: 80%;
+    margin: 12% auto;
+}
+
+.apply_item input{
+	font: 1vw sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+}
+
+.button {
+    width: 30%;
+    margin-top: 23%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button button[type="submit"] {
+    font: 1vw sans-serif;
+    font-weight: bold;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	letter-spacing: 1px;
+    color: black;
+    background-color: white;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+    transition:0.5s;
+}
+
+.button button[type="submit"]:hover {
+    color: white;
+    background-color: black;
+}
+
+/*main-------------------------------------------------------------------------------------------------------------------*/
+.board{
+    width: 75%;
+}
+
+/*グラフ-------------------------------------------------------------------------------------------------------------------*/
+#myChart{
+    width: 80%;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*テーブル-------------------------------------------------------------------------------------------------------------------*/
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 100%;
+}
+
+.income {
+    border-collapse:collapse;
+    width: 45%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.data{
+    padding:10px;
+    color: #7a8083;
+    font-family: sans-serif;
+}
+
+.td_button {
+    border: none;
+    background-color: transparent;
+    font-family: sans-serif;
+    background-color: #cbe6b9;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.2vw;
+}
+
+.income th{
+    color:#fff;
+    background:#56aaff;
+    font-family: sans-serif;
+    font-size: 1.8vw;
+}
+
+.income tr:nth-child(odd){
+    background:#bce0fd;
+}
+
+.payment {
+    border-collapse:collapse;
+    width: 45%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.payment th{
+    color:#fff;
+    background:#ff6d6d;
+    font-family: sans-serif;
+    font-size: 1.8vw;
+}
+
+.payment tr:nth-child(odd){
+    background:#ffbebd;
+}
